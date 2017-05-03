@@ -1,0 +1,313 @@
+@font-face {
+    font-family: gillsans;
+    src: url(GillSans.ttc);
+}
+
+@font-face {
+    font-family: georgia;
+    src: url(Georgia.ttf);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    width: 1000px;
+    height: 1500px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.news {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    font-family: GillSans
+    
+}
+
+.sports {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    font-family: gillsans;
+}
+
+.life {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 210px;
+    top: 10px;
+    font-family: gillsans;
+}
+
+.obituaries {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 280px;
+    top: 10px;
+    font-family: gillsans;
+}
+
+.opinion {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 415px;
+    top: 10px;
+    font-family: gillsans;
+}
+
+#line {
+    background-color: #9e191a;
+    width: 950px;
+    height: 6px;
+    position: absolute;
+    left: 50px;
+    top: 68px;
+}
+
+#upline {
+    background-color: #9e191a;
+    width: 6px;
+    height: 25px;
+    position: absolute;
+    left: 50px;
+    top: 44px;
+
+}
+
+#logo {
+    position: absolute;
+    left: 820px;
+    top: 10px;
+}
+
+#image {
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    height: 300px;
+    width: 500px;
+}
+
+#textheader {
+    position: absolute;
+    left: 150px;
+    top: 140px;
+    color: #9e191a;
+    font-size: 40px;
+    font-family: gillsans;
+    width: 850px;
+    
+}
+
+#author {
+    position: absolute;
+    left: 150px;
+    top: 230px;
+    font-family: gillsans;
+    font-size: 12px;
+}
+
+#caption {
+    position: absolute;
+    left: 500px;
+    top: 605px;
+    color: #9e191a;
+    font-size: 15px;
+    font-family: gillsans;
+    width: 450px;
+}
+
+#body {
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    width: 310px;
+    font-family: georgia;
+    line-height: 20px;
+    font-size: 15px;
+    
+}
+
+#body2 {
+    position: absolute;
+    left: 150px;
+    top: 678px;
+    width: 810px;
+    font-family: georgia;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#body3 {
+    position: absolute;
+    left: 500px;
+    top: 798px;
+    width: 460px;
+    font-family: georgia;
+    font-size: 15px;
+    line-height: 20px;
+}
+#picline {
+    background-color: #9e191a;
+    width: 500px;
+    height: 6px;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+}
+
+#image2 {
+    position: absolute;
+    left: 150px;
+    top: 810px;
+    height: 180px;
+    width: 320px;
+}
+
+#caption2 {
+    position: absolute;
+    left: 150px;
+    top: 995px;
+    color: #9e191a;
+    font-size: 12px;
+    font-family: gillsans;
+    width: 320px;
+}
+
+#body4 {
+    position: absolute;
+    left: 150px;
+    top: 1040px;
+    width: 810px;
+    font-family: georgia;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#footer {
+    background-color: #9e191a;
+    width: 350px;
+    height: 6px;
+    position: absolute;
+    left: 0px;
+    top: 1250px;
+    
+}
+
+#footer2 {
+    background-color: #9e191a;
+    width: 350px;
+    height: 6px;
+    position: absolute;
+    left: 650px;
+    top: 1250px;
+    
+}
+
+#facebook {
+    position: absolute;
+    left: 390px;
+    top: 1240px;
+    width: 30px;
+    height: 30px;
+}
+
+#twitter {
+    position: absolute;
+    left: 450px;
+    top: 1240px;
+    width: 30px;
+    height: 30px;
+}
+
+#linkedin {
+    position: absolute;
+    left: 510px;
+    top: 1240px;
+    width: 30px;
+    height: 30px;
+}
+
+#gmail {
+    position: absolute;
+    left: 570px;
+    top: 1240px;
+    width: 30px;
+    height: 30px;
+}
+
+#red {
+    color: #9e191a;
+    font-style: italic;
+}
+
+#bottom {
+    position: absolute;
+    background-color: #9e191a;
+    left: 0px;
+    top: 1400px;
+    height: 100px;
+    width: 1000px;
+}
+
+#woodbury {
+    position: absolute;
+    left: 300px;
+    top: 1430px;
+    color: white;
+    font-family: gillsans;
+    
+}
+
+
+#woodbury2 {
+    position: absolute;
+    left: 250px;
+    top: 1450px;
+    color: white;
+    font-family: gillsans;
+    
+}
+
+#white {
+    background-color: white;
+    width: 900px;
+    height: 2px;
+    position: absolute;
+    left: 50px;
+    top: 1480px;
+    
+}
+
+
+#white2 {
+    background-color: white;
+    width: 900px;
+    height: 2px;
+    position: absolute;
+    left: 50px;
+    top: 1420px;
+    
+}
+
+
+#ad {
+    position: absolute;
+    left: 247px;
+    top: 1270px;
+    width: 500px;
+}
+
